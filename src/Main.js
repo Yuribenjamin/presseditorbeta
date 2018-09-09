@@ -6,7 +6,7 @@ const Main = () => (
         id="textarea-en" 
         name="en-text"
         rows="40" cols="100"
-        maxLength="1000"
+        maxLength="5000"
         lang="en"
         wrap="hard">
         </textarea>
@@ -14,7 +14,7 @@ const Main = () => (
         id="textarea-ar" 
         name="en-text"
         rows="40" cols="100"
-        maxLength="1000"
+        maxLength="5000"
         lang="ar"
         wrap="hard">
         </textarea>

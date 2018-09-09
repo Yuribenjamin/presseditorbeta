@@ -2,6 +2,7 @@ html, body, .root {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: rgba(245, 241, 241, 0.856);
 }
 main {
     width: 100%;
@@ -14,7 +15,7 @@ main {
     display: flex;
     padding: 0em 0em 0em 1em;
     border-radius: 15px;
-    background-color: cyan;
+    background-color: #00CED1;
     box-shadow: 2px 5px 5px lightgrey;
     font: italic 1.2em "Fira Sans", serif;
 }
@@ -36,6 +37,7 @@ main {
     letter-spacing: 1px;
     resize: none;
     overflow: auto hidden;
+    overflow-y: scroll;
     font-family: arial,sans-serif;
     font-size: 16px;
     box-shadow: 2px 5px 5px lightgrey;
@@ -50,6 +52,7 @@ main {
     letter-spacing: 1px;
     resize: none;
     overflow: auto hidden;
+    overflow-y: scroll;
     font-family: arial,sans-serif;
     font-size: 16px;
     box-shadow: 2px 5px 5px lightgrey;
@@ -64,7 +67,7 @@ footer {
     margin-bottom: 0;
     padding-top: 2px;
     border-radius: 15px;
-    background-color: cyan;
+    background-color: #00CED1;
     box-shadow: 2px 5px 5px lightgrey;
     font: italic 1.2em "Fira Sans", serif;
 
