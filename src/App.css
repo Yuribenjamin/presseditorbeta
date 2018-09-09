@@ -26,3 +26,33 @@ main {
     margin-right: 2em;
     height: 50px;
 }
+
+.main {
+    display: flex;
+}
+
+#textarea-en {
+    margin: 1em 0em 1em 8em;
+    letter-spacing: 1px;
+    resize: none;
+    overflow: auto hidden;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 5px 5px lightgrey;
+    box-sizing: border-box;
+}
+
+#textarea-ar {
+    margin-left: auto;
+    margin-right: 8em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    resize: none;
+    overflow: auto hidden;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 5px 5px lightgrey;
+    box-sizing: border-box;
+    direction: rtl; 
+}

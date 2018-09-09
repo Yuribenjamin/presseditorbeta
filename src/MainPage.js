@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 import Header from './Header'
+import Main from './Main';
 
 
 class MainPage extends Component {
     render() {
         return(
-            <Header/>
+            <div>
+                <Header/>
+                <Main/>
+            </div>
         )
     }
 }
