@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import Main from './Main';
+import Footer from './Footer'
 
 
 class MainPage extends Component {
@@ -9,6 +10,7 @@ class MainPage extends Component {
             <div>
                 <Header/>
                 <Main/>
+                <Footer/>
             </div>
         )
     }

@@ -32,7 +32,7 @@ main {
 }
 
 #textarea-en {
-    margin: 1em 0em 1em 8em;
+    margin: 6.5em 0em 1em 8em;
     letter-spacing: 1px;
     resize: none;
     overflow: auto hidden;
@@ -46,7 +46,7 @@ main {
     margin-left: auto;
     margin-right: 8em;
     margin-bottom: 1em;
-    margin-top: 1em;
+    margin-top: 6.5em;
     letter-spacing: 1px;
     resize: none;
     overflow: auto hidden;
@@ -55,4 +55,17 @@ main {
     box-shadow: 2px 5px 5px lightgrey;
     box-sizing: border-box;
     direction: rtl; 
+}
+
+
+footer {
+    text-align: center;
+    height: 3em;
+    margin-bottom: 0;
+    padding-top: 2px;
+    border-radius: 15px;
+    background-color: cyan;
+    box-shadow: 2px 5px 5px lightgrey;
+    font: italic 1.2em "Fira Sans", serif;
+
 }
